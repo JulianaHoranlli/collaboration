@@ -20,13 +20,13 @@ body {
   padding: 2rem;
 }
 
-/* Heqim kufizimet e #root */
+
 #root {
   width: 100%;
   max-width: 1200px;
 }
 
-/* Titulli */
+
 h1 {
   text-align: center;
   margin-bottom: 2rem;
@@ -34,7 +34,7 @@ h1 {
   color: #333;
 }
 
-/* Forma (input + button) */
+
 form {
   display: flex;
   flex-wrap: wrap;
@@ -75,14 +75,14 @@ button:hover {
   background-color: #555;
 }
 
-/* Mesazhi i errorit */
+
 .error-message {
   color: #e63946;
   font-weight: bold;
   margin-top: -1rem;
 }
 
-/* Kontejneri i nuancave */
+
 .shade-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -90,7 +90,7 @@ button:hover {
   width: 100%;
 }
 
-/* Kutitë e nuancave */
+
 .shade-box {
   height: 150px;
   display: flex;

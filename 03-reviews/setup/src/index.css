@@ -148,9 +148,7 @@ p {
   }
 }
 
-/* =======================
-   Reviews Component Styles
-   ======================= */
+
 main {
   min-height: 100vh;
   display: grid;
@@ -169,13 +167,12 @@ main {
   margin: 0 auto;
 }
 
-/* Container for the whole component */
 .container {
   width: 80vw;
   max-width: var(--fixed-width);
 }
 
-/* Card style */
+
 .review {
   background: var(--clr-white);
   padding: 1.5rem 2rem;
@@ -189,7 +186,7 @@ main {
   box-shadow: var(--dark-shadow);
 }
 
-/* Image wrapper */
+
 .img-container {
   position: relative;
   width: 150px;
@@ -208,7 +205,6 @@ main {
   position: relative;
 }
 
-/* Decorative quote icon */
 .quote-icon {
   position: absolute;
   top: 0;
@@ -234,7 +230,7 @@ main {
   border-radius: 50%;
 }
 
-/* Text Styles */
+
 .author {
   margin-bottom: 0.25rem;
 }
@@ -250,7 +246,7 @@ main {
   margin-bottom: 0.75rem;
 }
 
-/* Navigation Buttons */
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -273,7 +269,7 @@ main {
   color: var(--clr-primary-5);
 }
 
-/* Random Button */
+
 .random-btn {
   margin-top: 0.5rem;
   background: var(--clr-primary-10);

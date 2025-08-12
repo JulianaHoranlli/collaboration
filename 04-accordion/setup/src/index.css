@@ -2,7 +2,7 @@
    ROOT VARIABLES
 ======================== */
 :root {
-  /* Colors */
+
   --clr-primary: #2caeba;
   --clr-primary-light: #88d4d6;
   --clr-dark: #102a42;
@@ -10,17 +10,13 @@
   --clr-bg: #f1f5f8;
   --clr-white: #fff;
 
-  /* Others */
   --radius: 0.25rem;
   --transition: all 0.3s ease-in-out;
   --spacing: 0.1rem;
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* ========================
-   GLOBAL STYLES
-======================== */
-*,
+
 ::after,
 ::before {
   box-sizing: border-box;
@@ -37,7 +33,7 @@ body {
   padding: 2rem;
 }
 
-/* Typography */
+
 h1,
 h2,
 h3,
@@ -53,7 +49,6 @@ p {
   color: var(--clr-grey);
 }
 
-/* Buttons */
 button {
   background: transparent;
   border: none;
@@ -67,9 +62,6 @@ button:hover {
   color: var(--clr-primary-light);
 }
 
-/* ========================
-   COMPONENT STYLES
-======================== */
 
 .container {
   max-width: 600px;

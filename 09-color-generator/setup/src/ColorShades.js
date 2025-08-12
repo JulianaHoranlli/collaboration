@@ -50,9 +50,9 @@ function ColorShades() {
   const [shades, setShades] = useState([]);
   const [error, setError] = useState("");
 
-  // Gjeneron nuancat
+
   const generateShades = (hex) => {
-    const hsl = hexToHSL(hex); // hsl vetëm brenda këtu
+    const hsl = hexToHSL(hex); 
     const shadesArray = [];
     for (let i = 9; i >= 0; i--) {
       const lightness = 10 + i * 8;

@@ -25,10 +25,10 @@ function App() {
           <h2>our menu</h2>
           <div className="underline"></div>
         </div>
-        {/* Butonat e kategorive */}
+        
         <Categories categories={categories} filterItems={filterItems} />
         
-        {/* Artikujt e menusë */}
+
         <div className="menu-items">
           {items.map((menuItem) => (
             <MenuItem key={menuItem.id} {...menuItem} />

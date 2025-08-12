@@ -14,7 +14,7 @@ function App() {
       </div>
 
       <div className="jobs-center">
-        {/* Buttons për kompanitë */}
+
         <div className="btn-container">
           {jobs.map((job, index) => (
             <button
@@ -27,7 +27,7 @@ function App() {
           ))}
         </div>
 
-        {/* Informacioni i punës */}
+
         <article className="job-info">
           <h3>{title}</h3>
           <h4>{company}</h4>

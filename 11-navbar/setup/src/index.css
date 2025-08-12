@@ -1,0 +1,76 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f1f5f8;
+  line-height: 1.6;
+}
+
+.navbar {
+  background: white;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #102a42;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #49a6e9;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #49a6e9;
+}
+
+.section {
+  padding: 2rem;
+  text-align: center;
+}

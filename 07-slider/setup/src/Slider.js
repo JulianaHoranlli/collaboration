@@ -28,7 +28,7 @@ const Slider = () => {
     restartAutoSlide();
   };
 
-  // Auto slide çdo 4 sekonda
+ 
   useEffect(() => {
     startAutoSlide();
     return () => stopAutoSlide();
@@ -61,7 +61,7 @@ const Slider = () => {
         setTransitioning(false);
         setIndex(1);
       }
-    }, 500); // duhet të përputhet me kohën e transition
+    }, 500); 
 
     return () => clearTimeout(handle);
   }, [index, transitioning]);
@@ -72,7 +72,7 @@ const Slider = () => {
       width:`${slideWidth}px`,
       margin: "50px auto",
     }}>
-      {/* Slide wrapper */}
+  
       <div style={{ overflow: "hidden" }}>
         <div
           ref={trackRef}
@@ -88,7 +88,7 @@ const Slider = () => {
         </div>
       </div>
 
-      {/* Shigjetat anash */}
+
       <button
         onClick={goToPrev}
         aria-label="Previous"

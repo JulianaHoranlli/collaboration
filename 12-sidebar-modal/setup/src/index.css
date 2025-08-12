@@ -1,0 +1,150 @@
+/*
+=============== 
+Variables
+===============
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f0f4f8;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: #645cff;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  position: relative;
+  width: 90vw;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modal-container .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #bb2525;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem 1rem;
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar.show-sidebar {
+  left: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar .close-btn {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #bb2525;
+  cursor: pointer;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.links li {
+  margin: 1rem 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #222;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  /* ⬅️ ZMADHUAR */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #645cff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  list-style: none;
+
+}
+
+.social-icons a {
+  color: #645cff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #222;
+}
